@@ -1,5 +1,4 @@
 require "problems/version"
+require "problems/one" 
 
-module Problems
-  # Your code goes here...
-end
+module Problems;end
