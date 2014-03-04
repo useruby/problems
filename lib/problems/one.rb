@@ -8,6 +8,6 @@ class Problems::One
   private
   def self.sum_digit_divided_by number
     last_digit = BELOW_NUMBER.fdiv(number).ceil
-    last_digit > 1 ? (1...last_digit).inject(0){|sum, digit| sum += digit}*number : 0
+    last_digit > 1 ? (1...last_digit).inject(:+)*number : 0
   end
 end
