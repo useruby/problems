@@ -1,29 +1,14 @@
 # Problems
 
-TODO: Write a gem description
-
-## Installation
-
-Add this line to your application's Gemfile:
-
-    gem 'problems'
-
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
-
-    $ gem install problems
+Solutions for the problems:
+[https://projecteuler.net/problem=1]
+[https://projecteuler.net/problem=10]
+[https://projecteuler.net/problem=20]
 
 ## Usage
 
-TODO: Write usage instructions here
+clone the repo from github:
+`git clone git@github.com:useruby/problems.git`
 
-## Contributing
-
-1. Fork it ( http://github.com/<my-github-username>/problems/fork )
-2. Create your feature branch (`git checkout -b my-new-feature`)
-3. Commit your changes (`git commit -am 'Add some feature'`)
-4. Push to the branch (`git push origin my-new-feature`)
-5. Create new Pull Request
+run `bundle install` for installing all required gems
+run `bundle exec rake spec` for running all the specs
